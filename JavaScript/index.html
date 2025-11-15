@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <!-- This links our CSS file to the HTML -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- This is the main container for our calculator -->
+    <div class="calculator">
+        <!-- This is the display of the calculator, where the numbers and results will be shown -->
+        <!-- The 'readonly' attribute prevents the user from typing directly into the display -->
+        <input type="text" id="display" readonly>
+
+        <!-- This is the container for all the calculator buttons -->
+        <div class="buttons">
+            <!-- Calculator buttons are created here -->
+            <!-- When a button is clicked, it calls a JavaScript function -->
+
+            <!-- Operator Buttons -->
+            <button class="operator" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button class="operator" onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button class="operator" onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button class="operator" onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+
+            <!-- The 'calculate' function is called when the equals button is clicked -->
+            <button class="equal" onclick="calculate()">=</button>
+
+            <!-- The 'clearDisplay' function is called when the clear button is clicked -->
+            <button class="clear" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+
+    <!-- This links our JavaScript file to the HTML -->
+    <script src="script.js"></script>
+</body>
+</html>
