@@ -28,15 +28,15 @@ script.js – Calculator logic and button functions
 
 🚀 How to Run
 
-Download or clone the repository:
+- Download or clone the repository:
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/chamo111/Calculator-in-different-programming-languages/tree/main/JavaScript)
 
-Open the project folder
+- Open the project folder
 Run the app by opening index.html in any browser
 
 🎯 How It Works
 
-Buttons trigger functions like appendToDisplay(), calculate(), and clearDisplay()
-The display updates dynamically
-Expressions are evaluated using JavaScript
-Invalid inputs show Error without crashing the calculator
+- Buttons trigger functions like appendToDisplay(), calculate(), and clearDisplay()
+- The display updates dynamically
+- Expressions are evaluated using JavaScript
+- Invalid inputs show Error without crashing the calculator
