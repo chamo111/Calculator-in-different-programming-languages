@@ -34,7 +34,7 @@ calculator/
 
 - Download or clone the repository:
  ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/chamo111/Calculator-in-different-programming-languages/tree/main/JavaScript)
+git clone https://github.com/chamo111/Calculator-in-different-programming-languages/tree/main/JavaScript
 ```
 - Open the project folder
 Run the app by opening index.html in any browser
