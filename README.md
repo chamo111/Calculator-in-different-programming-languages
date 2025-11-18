@@ -20,17 +20,22 @@ index.html – Structure and layout of the calculator
 style.css – Styling and responsive design
 script.js – Calculator logic and button functions
 
-📂 Folder Structure
-/calculator
-│── index.html
-│── style.css
+## 📂 Folder Structure
+
+```
+calculator/
+├── index.html
+├── style.css
 └── script.js
+```
+
 
 🚀 How to Run
 
 - Download or clone the repository:
+ ```bash
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/chamo111/Calculator-in-different-programming-languages/tree/main/JavaScript)
-
+```
 - Open the project folder
 Run the app by opening index.html in any browser
 
